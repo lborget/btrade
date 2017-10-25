@@ -20,7 +20,7 @@ mysqladmin -u root password password
 echo "CREATE DATABASE btrade;" | mysql -u root -ppassword
 
 cd /var/www
-git clone https://github.com/lborget/master.git
+git clone https://github.com/lborget/btrade
 cd btrade
 
 # Laravel needs these to be writable
